@@ -11,11 +11,15 @@ h3,
 h4,
 h5, 
 h6 {
-    color:  rgb(48, 134, 59);
+    color:  #942318;
+}
+.parrafo{
+    color: #777777;
+
 }
 
 a {
-    color:  rgb(48, 134, 59);
+    color:  #942318;
     transition: .3s;
 }
 .navbar-brand img {

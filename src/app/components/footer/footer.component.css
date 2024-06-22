@@ -2,7 +2,7 @@
   position: relative;
   margin-top: 45px;
   padding-top: 90px;
-  background: rgb(48, 134, 59);
+  background: #942318;
 }
 
 .footer .footer-contact,
@@ -73,12 +73,7 @@
   border-radius: 0;
 }
 
-.footer .footer-newsletter label {
-  margin-top: 5px;
-  color: #777777;
-  font-size: 14px;
-  letter-spacing: 1px;
-}
+
 
 .footer .footer-newsletter .btn.btn-custom {
   width: 100%;
@@ -106,6 +101,10 @@
 
 .footer .copyright p a {
   color: #ffffff;
+}
+.btn-custom{
+  color: #ffffff;
+
 }
 
 .footer .copyright p a:hover {
