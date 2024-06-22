@@ -16,6 +16,4 @@ export const routes: Routes = [
     { path: 'voluntariado', component: VoluntariadoComponent},
     { path: 'convocatoria', component: ConvocatoriaComponent },
     { path: 'contacto', component: ContactoComponent },
-
-
 ];
