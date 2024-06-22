@@ -1,20 +1,83 @@
-.form-container {
+header {
+    position: relative;
+    background: url('https://images.ctfassets.net/o65uf8qogksw/5szJTWZF5YtNTgGtyTOLJo/40058c5952a39ea07e575d7d33f460ae/pedir-ayuda-esta-bien-06.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 550px;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .header-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Estilos para los servicios */
+  .service {
+    padding: 45px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .service .service-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+  }
+  
+  .service .service-icon {
+    width: 60px;
+  }
+  
+  .service .service-text {
+    margin-left: 20px;
+  }
+  
+  .service .service-text h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .service .service-text p {
+    margin: 0;
+  }
+  
+  .service-image {
+    width: 70px;
+    height: auto;
+  }
+  
+  /* Estilos para el formulario */
+  .form-container {
     max-width: 600px;
     margin: auto;
     background-color: #fff;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   }
+  
   .form-group {
     margin-bottom: 20px;
   }
+  
   .form-group label {
     font-weight: bold;
   }
+  
   .form-group input[type="text"],
   .form-group input[type="email"],
   .form-group input[type="tel"],
+  .form-group select,
   .form-group textarea {
     width: 100%;
     padding: 10px;
@@ -22,36 +85,46 @@
     border-radius: 4px;
     font-size: 16px;
   }
+  
   .form-group textarea {
     height: 120px;
   }
+  
   .form-group .custom-file-input {
     cursor: pointer;
   }
+  
   .form-group .custom-file-input:focus {
     box-shadow: none;
   }
+  
   .form-group .custom-file-label {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
   }
+  
   .btn-group {
     display: flex;
     justify-content: center;
   }
+  
   .btn-group .btn {
     margin: 0 5px;
   }
+  
   .btn-group .btn:first-child {
     margin-left: 0;
   }
+  
   .btn-group .btn:last-child {
     margin-right: 0;
   }
-  .botones{
-    background-color:#942318;
+  
+  .botones {
+    background-color: #942318;
   }
-  .botones1{
-   background-color:#FDBE33;
+  
+  .botones1 {
+    background-color: #fdbd33;
   }
