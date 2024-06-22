@@ -1,0 +1,221 @@
+:host {
+  display: block;
+}
+.about {
+  position: relative;
+  width: 100%;
+  padding: 45px 0;
+}
+
+.about .section-header {
+  margin-bottom: 30px;
+  margin-left: 0;
+}
+
+.about .about-img {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.about .about-img .parallax {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+  will-change: transform;
+}
+
+.about .about-tab {
+  width: 100%;
+}
+
+.about .about-tab .nav.nav-pills .nav-link {
+  padding: 8px;
+  font-weight: 600;
+  background: none;
+  border-radius: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .15);
+  transition: none;
+}
+
+.about .about-tab .nav.nav-pills .nav-link:hover,
+.about .about-tab .nav.nav-pills .nav-link.active {
+  color: #FDBE33;
+  padding-bottom: 7px;
+  border-bottom: 3px solid #FDBE33;
+}
+
+.about .about-tab .tab-content {
+  padding: 15px 0 0 0;
+  background: transparent;
+}
+
+.about .about-tab .tab-content .container {
+  padding: 0;
+}
+
+@media (max-width: 991.98px) {
+  .about .section-header {
+      margin-top: 30px;
+  }
+
+  .about .about-img {
+      height: auto;
+  }
+
+  .about .about-img .parallax {
+      position: static;
+      width: 100%;
+  }
+}
+
+
+/*service*/
+.service {
+  position: relative;
+  width: 100%;
+  padding: 45px 0 15px 0;
+}
+
+.service .service-item {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+  transition: .3s;
+}
+
+.service .service-icon {
+  position: relative;
+  width: 60px;
+}
+
+.service .service-icon i {
+  position: relative;
+  display: block;
+  color: rgb(255, 230, 0);
+  font-size: 60px;
+  line-height: 60px;
+  margin-top: 5px;
+}
+
+.service .service-text {
+  position: relative;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.service .service-text::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: calc(100% - 10px);
+  top: 5px;
+  left: 0;
+  background: rgba(0, 0, 0, .1);
+}
+
+.service .service-text::after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 40px;
+  top: calc(50% - 20px);
+  left: -1px;
+  background: rgb(255, 230, 0);
+}
+
+.service .service-text h3 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.service .service-text p {
+  margin: 0;
+}
+
+.service-icon {
+  margin-bottom: 20px;
+}
+
+.service-image {
+  width: 70px; 
+  height: auto;
+}
+/*facts*/
+
+.facts {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  margin: 45px 0;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, .5);
+}
+
+.facts .facts-item {
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0;
+}
+
+.facts .facts-item i {
+  margin-top: 10px;
+  font-size: 60px;
+  line-height: 60px;
+  color: rgb(255, 230, 0);
+}
+
+.facts-item i {
+  font-size: 40px; 
+}
+
+
+.facts .facts-text {
+  padding-left: 20px;
+}
+
+.facts .facts-text h3 {
+  position: relative;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.facts .facts-text h3::after {
+  position: absolute;
+  top: 0px;
+  color: #ffffff;
+  font-size: 25px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.facts .facts-text h3.facts-plus::after {
+  content: "\f067";
+  right: -25px;
+}
+
+.facts .facts-text h3.facts-dollar::after {
+  content: "\f155";
+  right: -18px;
+}
+
+.facts .facts-text p {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
