@@ -128,3 +128,29 @@ header {
   .botones1 {
     background-color: #fdbd33;
   }
+
+  .contact-img {
+    text-align: center;
+}
+
+.contact-img img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.form-container form {
+  max-width: 100%;
+}
+
+.form-container img {
+  max-width: 100%;
+  height: auto;
+}

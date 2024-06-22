@@ -71,3 +71,142 @@ section {
 .flex-fill {
   flex: 1 1 auto;
 }
+/* Estilos para la sección del formulario */
+#formulario {
+  background-color: #f0f4f8; /* Fondo suave para la sección */
+  padding: 50px 0;
+  border-radius: 8px;
+}
+
+#formulario h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+/* Estilos para las etiquetas del formulario */
+#formulario .form-label {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Estilos para los campos del formulario */
+#formulario .form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+#formulario .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Estilos para los botones del formulario */
+#formulario .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#formulario .btn-primary:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* Estilos para los mensajes de validación */
+#formulario .invalid-feedback {
+  font-size: 0.875rem;
+  color: #dc3545;
+}
+
+/* Estilos para el checkbox de términos y condiciones */
+#formulario .form-check-input {
+  margin-top: 0.3rem;
+}
+
+#formulario .form-check-label {
+  margin-left: 1.25rem;
+  color: #555;
+}
+
+#formulario a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#formulario a:hover {
+  text-decoration: underline;
+}
+
+#formulario .container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la sección "Cómo Unirse" */
+.join-section {
+  background-color: #f0f8ff; /* Fondo suave */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el título */
+.join-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el texto introductorio */
+.join-section .intro-text {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+
+.join-section .steps-list {
+  list-style-type: none;
+  padding: 0;
+  counter-reset: step-counter;
+}
+
+
+.join-section .steps-list li {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 15px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.join-section .steps-list li::before {
+  content: counter(step-counter);
+  counter-increment: step-counter;
+  font-size: 1.5rem;
+  color: #007bff;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 1.5rem;
+}
+
+
+.join-section a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.join-section a:hover {
+  text-decoration: underline;
+}
