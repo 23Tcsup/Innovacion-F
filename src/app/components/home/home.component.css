@@ -216,3 +216,14 @@
   font-weight: 600;
   margin: 0;
 }
+.card-img-fixed {
+  width: 100%; /* Ajusta el ancho al 100% del contenedor */
+  height: 200px; /* Altura fija para todas las imágenes */
+  object-fit: cover; /* Ajusta la imagen manteniendo la proporción y cubriendo el contenedor */
+}
+.botones{
+  background-color:#942318;
+}
+.botones1{
+ background-color:#FDBE33;
+}

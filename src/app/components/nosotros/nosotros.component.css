@@ -63,6 +63,12 @@
   color: #007bff;
 }
 
+.card-img-fixed {
+  width: 100%; /* Ajusta el ancho al 100% del contenedor */
+  height: 200px; /* Altura fija para todas las imágenes */
+  object-fit: cover; /* Ajusta la imagen manteniendo la proporción y cubriendo el contenedor */
+}
+
 @media (max-width: 767.98px) {
   .team .team-img img {
     height: auto;
