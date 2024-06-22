@@ -17,3 +17,11 @@
     width: 100%;
     margin-bottom: 10px;
   }
+  .btn-outline-custom {
+    color: #942318 !important;
+    border-color: #942318 !important;
+}
+.btn-outline-custom:hover {
+  background-color: #942318 !important;
+  color: white !important;
+}
