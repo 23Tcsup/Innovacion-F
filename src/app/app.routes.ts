@@ -8,6 +8,8 @@ import { ConvocatoriaComponent } from './components/convocatoria/convocatoria.co
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { SolicitudesComponent } from './components/solicitudes/solicitudes.component';
 import { BlogComponent } from './components/blog/blog.component';
+import { FormDonacionComponent } from './components/form-donacion/form-donacion.component';
+import { FormPagoComponent } from './components/form-pago/form-pago.component';
 
 export const routes: Routes = [
     { path: "", redirectTo: "home", pathMatch: "full" },
@@ -20,4 +22,6 @@ export const routes: Routes = [
     { path: 'voluntariado', component: VoluntariadoComponent},
     { path: 'convocatoria', component: ConvocatoriaComponent },
     { path: 'contacto', component: ContactoComponent },
+    { path: 'donar', component: FormDonacionComponent},
+    { path: 'pago', component: FormPagoComponent}
 ];

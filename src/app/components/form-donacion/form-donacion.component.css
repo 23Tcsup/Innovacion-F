@@ -1,0 +1,19 @@
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+    content: "Browse";
+  }
+  .btn-donation {
+    background-color: #ffa500;
+    color: #fff;
+  }
+  .btn-donation:hover {
+    background-color: #cc8400;
+    color: #fff;
+  }
+  .card-img-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+  .btn-amount {
+    width: 100%;
+    margin-bottom: 10px;
+  }
