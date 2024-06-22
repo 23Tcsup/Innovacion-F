@@ -1,0 +1,57 @@
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group label {
+    font-weight: bold;
+  }
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .form-group textarea {
+    height: 120px;
+  }
+  .form-group .custom-file-input {
+    cursor: pointer;
+  }
+  .form-group .custom-file-input:focus {
+    box-shadow: none;
+  }
+  .form-group .custom-file-label {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .btn-group {
+    display: flex;
+    justify-content: center;
+  }
+  .btn-group .btn {
+    margin: 0 5px;
+  }
+  .btn-group .btn:first-child {
+    margin-left: 0;
+  }
+  .btn-group .btn:last-child {
+    margin-right: 0;
+  }
+  .botones{
+    background-color:#942318;
+  }
+  .botones1{
+   background-color:#FDBE33;
+  }

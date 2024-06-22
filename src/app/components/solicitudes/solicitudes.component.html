@@ -1,0 +1,40 @@
+<div class="container mt-4">
+    <div class="form-container">
+      <h2 class="text-center mb-4">Solicita tu Ayuda</h2>
+      <form>
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="correo">Correo Electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+        </div>
+        <div class="form-group">
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono">
+        </div>
+        <div class="form-group">
+          <label for="servicio">Servicio Requerido:</label>
+          <select id="servicio" name="servicio" class="form-control" required>
+            <option value="">Seleccione un servicio...</option>
+            <option value="Servicio 1">Servicio 1</option>
+            <option value="Servicio 2">Servicio 2</option>
+            <option value="Servicio 3">Servicio 3</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="evidencia">Evidencia:</label>
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" id="evidencia" name="evidencia" accept="image/*" required>
+            <label class="custom-file-label" for="evidencia"></label>
+          </div>
+        </div>
+        <div class="btn-group">
+          <button type="reset" class="btn btn-secondary botones1">Cancelar</button>
+          <button type="submit" class="btn btn-primary botones">Enviar</button>
+         
+        </div>
+      </form>
+    </div>
+  </div>
