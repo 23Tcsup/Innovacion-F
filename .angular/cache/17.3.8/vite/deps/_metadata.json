@@ -1,49 +1,73 @@
 {
-  "hash": "a94e3e49",
-  "configHash": "3d33c524",
-  "lockfileHash": "813587e4",
-  "browserHash": "bd502c6e",
+  "hash": "0663b3f1",
+  "configHash": "d5617293",
+  "lockfileHash": "c612b7fb",
+  "browserHash": "70f49eec",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "f5085b65",
+      "fileHash": "568184bc",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "1a9089d4",
+      "fileHash": "5c01e037",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "d7786f0e",
+      "fileHash": "4c2d50fd",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "05c7e7ed",
+      "fileHash": "07fce819",
       "needsInterop": false
     },
     "ngx-bootstrap/carousel": {
       "src": "../../../../../node_modules/ngx-bootstrap/carousel/fesm2022/ngx-bootstrap-carousel.mjs",
       "file": "ngx-bootstrap_carousel.js",
-      "fileHash": "df81d189",
+      "fileHash": "1f800454",
       "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "5e587f77",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "5bc20532",
+      "needsInterop": false
+    },
+    "sweetalert2": {
+      "src": "../../../../../node_modules/sweetalert2/dist/sweetalert2.all.js",
+      "file": "sweetalert2.js",
+      "fileHash": "61367fa6",
+      "needsInterop": true
     }
   },
   "chunks": {
-    "chunk-U7PAWJPZ": {
-      "file": "chunk-U7PAWJPZ.js"
+    "chunk-2TCSXYUJ": {
+      "file": "chunk-2TCSXYUJ.js"
     },
-    "chunk-VGC5YQ7Y": {
-      "file": "chunk-VGC5YQ7Y.js"
+    "chunk-3YDBBOES": {
+      "file": "chunk-3YDBBOES.js"
     },
-    "chunk-RA33G2A7": {
-      "file": "chunk-RA33G2A7.js"
+    "chunk-6W3LSRVD": {
+      "file": "chunk-6W3LSRVD.js"
+    },
+    "chunk-KFAPMD42": {
+      "file": "chunk-KFAPMD42.js"
+    },
+    "chunk-WKYGNSYM": {
+      "file": "chunk-WKYGNSYM.js"
     }
   }
 }

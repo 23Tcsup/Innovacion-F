@@ -4,7 +4,7 @@ import {
   NgIf,
   NgStyle,
   isPlatformBrowser
-} from "./chunk-VGC5YQ7Y.js";
+} from "./chunk-6W3LSRVD.js";
 import {
   Component,
   EventEmitter,
@@ -42,7 +42,8 @@ import {
   ɵɵstyleProp,
   ɵɵtemplate,
   ɵɵtext
-} from "./chunk-RA33G2A7.js";
+} from "./chunk-KFAPMD42.js";
+import "./chunk-WKYGNSYM.js";
 
 // node_modules/ngx-bootstrap/utils/fesm2022/ngx-bootstrap-utils.mjs
 var win = typeof window !== "undefined" && window || {};
